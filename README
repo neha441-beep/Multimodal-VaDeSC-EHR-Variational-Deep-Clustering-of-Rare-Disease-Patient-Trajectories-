@@ -1,0 +1,3 @@
+The MIMIC-IV database, containing 26 relational tables of de-identified ICU patient data, served as the primary dataset. It is available in CSV format following the RFC 4180 standard and also accessible via Google BigQuery. Access to MIMIC-IV requires credentialing through PhysioNet and compliance with its Data Use Agreement.
+
+All experiments were conducted in Python 3.10 using PyTorch, PyTorch Lightning, and Hugging Face Transformers on GPU-enabled systems. The notebooks—vadesc-ehr-baseline.ipynb, ehr-mamba.ipynb, and vadesc-ehr-multimodal-run1.ipynb—represent the baseline and proposed approaches. Users can execute these notebooks sequentially after setting up the MIMIC-IV dataset locally or through BigQuery.
